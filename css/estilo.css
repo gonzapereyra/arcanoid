@@ -1,0 +1,30 @@
+.canvas{
+    position: absolute;
+    top:0 ;
+    bottom:0 ;
+    left: 0;
+    right:0 ;
+    margin: auto ;
+    background-image: url("../img/IMG-20170527-WA0005.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+#arcanoidGO { 
+    display: none;
+    position: absolute;
+    top:0 ;
+    bottom:0 ;
+    left: 0;
+    right:0 ;
+    margin: auto ;
+    background-image: url("../img/gameover.jpg");
+    
+    background-size: cover;
+    cursor:pointer;
+    z-index: 2;
+   
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
